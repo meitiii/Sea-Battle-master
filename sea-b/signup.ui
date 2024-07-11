@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUp</class>
+ <widget class="QDialog" name="SignUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Pictures/BackGround/paper.png);
+border-radius:30px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="mainLayout">
+    <item>
+     <widget class="QLineEdit" name="firstnameLine">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 210);
+border:none;
+border-bottom:2px solid rgb(0,0,255);
+color:rgb(0,0,0);
+padding-bottom:7px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>First Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lastnameLine">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 210);
+border:none;
+border-bottom:2px solid rgb(0,0,255);
+color:rgb(0,0,0);
+padding-bottom:7px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Last Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="userLine">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 210);
+border:none;
+border-bottom:2px solid rgb(0,0,255);
+color:rgb(0,0,0);
+padding-bottom:7px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="passLine">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 210);
+border:none;
+border-bottom:2px solid rgb(0,0,255);
+color:rgb(0,0,0);
+padding-bottom:7px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="emailLine">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 210);
+border:none;
+border-bottom:2px solid rgb(0,0,255);
+color:rgb(0,0,0);
+padding-bottom:7px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Email</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="signButt">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>330</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
